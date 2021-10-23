@@ -1,46 +1,99 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Custom input + Formik + Yup = :blue_heart:
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/franciscojunior10/custom-input-with-formik-yup-validation?color=%5965E0">
 
-## Available Scripts
+  <a href="https://www.linkedin.com/in/franciscojunior10/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-franciscojunior10-%5965E0">
+  </a>
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/franciscojunior10/custom-input-with-formik-yup-validation?color=%5965E0">
 
-### `yarn start`
+  <a href="https://github.com/franciscojunior10/custom-input-with-formik-yup-validation/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/franciscojunior10/custom-input-with-formik-yup-validation?color=%5965E0">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/franciscojunior10/custom-input-with-formik-yup-validation/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/franciscojunior10/custom-input-with-formik-yup-validation?color=%5965E0">
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <img alt="GitHub" src="https://img.shields.io/github/license/franciscojunior10/custom-input-with-formik-yup-validation?color=%5965E0">
 
-### `yarn test`
+   <a href="https://github.com/franciscojunior10/custom-input-with-formik-yup-validation/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/franciscojunior10/custom-input-with-formik-yup-validation?color=%5965E0">
+  </a>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <a href="#about-the-project-open_file_folder">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#getting-started-desktop_computer">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-contribute-thinking">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license-memo">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#author-man_technologist">Author</a>
+</p>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img alt="Gif" src="https://user-images.githubusercontent.com/33940202/138571890-53a8d5ee-049e-422f-8971-aaf30fa70462.gif" />
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## About the project :open_file_folder::
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Custom input using styles-components with equal validation flow using inputs from material-ui, the schema was created using yup and the form using formik.
+## Getting started :desktop_computer::
+**Clone the project and access the folder**
 
-### `yarn eject`
+```bash
+$ git clone https://github.com/franciscojunior10/custom-input-with-formik-yup-validation.git && cd custom-input-with-formik-yup-validation
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Follow the steps below**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Install the dependencies
+$ yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Start the client
+$ yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## How to contribute :thinking::
 
-## Learn More
+**Make a fork of this repository**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ gh repo fork franciscojunior10/custom-input-with-formik-yup-validation
+```
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd ignews
+
+# Create a branch with your feature
+$ git checkout -b my-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## License :memo::
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+# Author :man_technologist::
+
+Made with :heart: by **franciscojunior10** my :point_right: [Linkedin](https://www.linkedin.com/in/franciscojunior10/)
