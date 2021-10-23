@@ -18,7 +18,7 @@ export const Input = styled.input<InputProps>`
     css`
       border-color: var(--color-border);
       background-color: var(---color-white);
-      color: var(--color-border);
+      color: var(--color-black);
     `}
 
   ${({ isFilled }) =>
@@ -26,7 +26,7 @@ export const Input = styled.input<InputProps>`
     css`
       border-color: var(--color-border);
       background-color: var(---color-white);
-      color: var(--color-border);
+      color: var(--color-black);
     `}
 
   ${({ isError }) =>
@@ -34,7 +34,7 @@ export const Input = styled.input<InputProps>`
       ? css`
           border-color: var(--color-error);
           background-color: var(--color-white);
-          color: var(--color-error);
+          color: var(--color-black);
         `
       : css`
           &:hover {

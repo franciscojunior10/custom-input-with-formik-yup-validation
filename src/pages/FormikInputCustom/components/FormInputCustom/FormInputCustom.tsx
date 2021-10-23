@@ -26,7 +26,7 @@ const FormInputCustom: React.FC = () => {
 
   return (
     <Styled.Container>
-      <h4>Formulário com input customizado</h4>
+      <h4>Formulário com validação input customizado</h4>
       <Formik
         initialValues={initialValues}
         validationSchema={schema}
