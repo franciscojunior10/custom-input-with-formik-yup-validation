@@ -36,7 +36,7 @@
 
 
 <p align="center">
-  <img alt="Gif" src="https://user-images.githubusercontent.com/33940202/138571890-53a8d5ee-049e-422f-8971-aaf30fa70462.gif" />
+  <img alt="Gif" src="https://user-images.githubusercontent.com/33940202/138572617-ff36fad4-a2c1-4774-8142-57dcb58ae72b.gif" />
 </p>
 
 ## About the project :open_file_folder::
