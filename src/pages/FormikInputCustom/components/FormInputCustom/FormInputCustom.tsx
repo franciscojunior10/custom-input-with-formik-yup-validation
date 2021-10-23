@@ -66,7 +66,11 @@ const FormInputCustom: React.FC = () => {
               <MessageError text={errors.password} />
             )}
 
-            <button type="submit">Entrar</button>
+            <Styled.DivButton>
+              <Styled.Button variant="contained" color="primary" type="submit">
+                Entrar
+              </Styled.Button>
+            </Styled.DivButton>
           </Form>
         )}
       </Formik>
