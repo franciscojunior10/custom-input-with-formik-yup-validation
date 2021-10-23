@@ -18,7 +18,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "importsNotUsedAsValues": "preserve",
+    "noImplicitAny": false
   },
   "include": [
     "src"
