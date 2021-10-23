@@ -4,13 +4,16 @@ const GlobalStyles = createGlobalStyle`
   * {
     padding: 0;
     margin: 0;
+    outline: 0;
     box-sizing: border-box;
   }
 
   :root {
     --color-error: #ed4337;
-    --color-background: #FBFAFF;
+    --color-background: #FBFAFf;
     --color-border: #265D97;
+    --color-white: #ffffff;
+    --color-grey: #9f9da3;
   }
 
   body {
